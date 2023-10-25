@@ -53,4 +53,4 @@ def question_3():
     print(pt.get_string())
 
 if __name__ == '__main__':
-    graph()
+    print(rational(7, 8) + 1.65)

@@ -78,6 +78,18 @@ class rational(object):
 
     def __rtruediv__(self, other: AnyNum) -> rational:
         return self.__rdiv__(other)
+    
+    def __pow__(self, other: AnyNum) -> Union[rational, float]:
+        if isinstance(other, int):
+            return rational(self._num ** other, self._den ** other)
+        elif isinstance(other, float):
+            pnum, pden = self._num ** other, self._den ** other
+            if float(int(pnum)) == pnum and float(int(pden)) == pden:
+                return rational(int(pnum), int(pden))
+        return float(self) ** float(other)
+    
+    def __rpow__(self, other: AnyNum) -> Union[rational, float]:
+        return float(other) ** float(self)
 
     def __neg__(self) -> rational:
         return -1 * self
