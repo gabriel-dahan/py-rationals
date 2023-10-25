@@ -7,7 +7,7 @@ AnyNum = Union['rational', Union[int, float]]
 class rational(object):
 
     """ Classe permettant la représentation formelle et le calcul avec des rationnels, sous forme de fractions.
-        REPO & DOCS : https://github.com/gabriel-dahan/rationals """
+        REPO & DOCS : https://github.com/gabriel-dahan/py-rationals """
 
     def __init__(self, numerator: int, denominator: int) -> None:
         assert denominator != 0, 'Le dénominateur doit être non-nul.'

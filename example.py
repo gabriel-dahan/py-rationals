@@ -10,7 +10,9 @@
 
 from typing import List
 from rationals import rational
+from random import randint
 
+# -- Veillez à avoir installé la suivante pour lancer ce fichier :
 from prettytable import PrettyTable
 
 # -- 1) --
@@ -51,4 +53,4 @@ def question_3():
     print(pt.get_string())
 
 if __name__ == '__main__':
-    question_3()
+    graph()
