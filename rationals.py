@@ -132,7 +132,7 @@ class rational(object):
         
         # ------
         # Pour mieux comprendre le code écrit ci-dessous, voir ma démonstration de la formule 
-        # générale utilisée, écrite dans le fichier RATIONNAL_FRAC.md.
+        # générale utilisée, écrite dans le fichier RATIONNAL_FRAC.pdf.
         # ------
         
         if decimal_part > 1:
