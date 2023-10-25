@@ -1,9 +1,9 @@
 """ 
-    Exemple d'exercice de travail sur les fractions pouvant utiliser la classe `rationnal` :
+    Exemple d'exercice de travail sur les fractions pouvant utiliser la classe `rational` :
 
     |  L'application f prend un rationnel x, écrit son écriture décimale et remplace tous les 5 par des 4,
     |  et le remet sous forme rationnelle.
-    |    1) Ecrire cette fonction en Python (à l'aide de rationnal).
+    |    1) Ecrire cette fonction en Python (à l'aide de rational).
     |    2) Calculer f(1/2), f(1/4), f(17/14). 
     |    3) Combien l'équation f(x)=73/495 a-t-elle de solutions ? Combien l'équation f(x)=541/990 a-t-elle de solutions ?
 """
